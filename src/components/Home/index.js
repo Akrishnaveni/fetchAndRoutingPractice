@@ -6,7 +6,7 @@ import BlogList from '../BlogList'
 
 const Home = () => (
   <>
-    <div className="home-container">
+    <div className="home-container" data-testid="loader">
       <UserInfo />
 
       <BlogList />
